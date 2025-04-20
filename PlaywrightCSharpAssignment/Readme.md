@@ -9,6 +9,9 @@ Commands to run tests
     To Run UI tests 
     - dotnet test --filter "Category=UI"
 
+    To Run UI tests written in Screenplay pattern
+    - dotnet test --filter "Category=Screenplay"
+
 Setup Guidance:
 
     Install below: 
@@ -61,6 +64,7 @@ Whats covered in this project
     - Test Cases annotations used for supplying varying test data
     - Screenshots captured for UI tests
     - Different styles of locators used
+    - Added Screen play pattern style tests in UITests_Screenplay.cs
 
 - What I would cover If i had the Time:
     - I would add Specflow BDD style tests as well
@@ -70,7 +74,6 @@ Whats covered in this project
     - Jenkins config for CI/CD integration on AWS or GCP or Azure-pilelines config for Azure specific Deployment
     - Add some Data Integrity tests as a separate framework
     - Performance metrics reporting
-    - Add Screen play pattern style tests 
 
 
 Originality Statement

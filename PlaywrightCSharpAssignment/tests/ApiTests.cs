@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.Playwright;
 using NUnit.Framework;
 
-namespace PlaywrightCSharpAssignment.Tests
+namespace PlaywrightCSharpAssignment.tests
 {
     [TestFixture]
     [Category("API")]

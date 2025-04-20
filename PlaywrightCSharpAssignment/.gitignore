@@ -1,6 +1,7 @@
 # Ignore build output
 bin/
 obj/
+debug/
 
 # Ignore Playwright browsers cache
 ms-playwright/
@@ -10,4 +11,5 @@ ms-playwright/
 
 **/bin/
 **/obj/
+**/debug/
 **/ms-playwright/

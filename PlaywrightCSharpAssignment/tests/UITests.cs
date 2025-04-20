@@ -4,7 +4,7 @@ using PlaywrightCSharpAssignment.Pages;
 using PlaywrightCSharpAssignment.utilities;
 using System.Diagnostics;
 
-namespace PlaywrightCSharpAssignment.Tests
+namespace PlaywrightCSharpAssignment.tests
 {
     [TestFixture]
     [Category("UI")]
