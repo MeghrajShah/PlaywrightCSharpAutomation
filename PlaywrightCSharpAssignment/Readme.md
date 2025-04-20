@@ -1,4 +1,10 @@
-Commands to run tests
+Commands to run tests:
+
+    To Clean project
+    - dotnet clean
+
+    To Build project
+    - dotnet build
 
     To Run All tests 
     - dotnet test
@@ -11,6 +17,7 @@ Commands to run tests
 
     To Run UI tests written in Screenplay pattern
     - dotnet test --filter "Category=Screenplay"
+
 
 Setup Guidance:
 
