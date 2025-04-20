@@ -28,7 +28,7 @@ Setup Guidance:
         • brew install --cask powershell
     
 
-    I'm using a Mac - So I have uses VS Code IDE
+    I'm using a Mac - So I have used VS Code IDE
         • Install VS code - https://code.visualstudio.com/Download
         • Add VS Code plugin - C# Dev kit 
     
