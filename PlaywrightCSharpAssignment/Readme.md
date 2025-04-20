@@ -1,8 +1,13 @@
 Commands to run tests
 
-To Run All tests - dotnet test
-To Run API tests - dotnet test --filter "Category=API"
-To Run UI tests - dotnet test --filter "Category=UI"
+    To Run All tests 
+    - dotnet test
+
+    To Run API tests 
+    - dotnet test --filter "Category=API"
+
+    To Run UI tests 
+    - dotnet test --filter "Category=UI"
 
 Setup Guidance:
 
