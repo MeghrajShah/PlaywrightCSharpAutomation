@@ -105,6 +105,8 @@ namespace PlaywrightCSharpAssignment.Tests
             {
                 await addToCartButtons.Nth(i).ClickAsync();
                 await Page.Locator("button:has-text(\"Continue Shopping\")").IsVisibleAsync();
+
+                // Assert the number of items in cart is as expected
                 Assert.That(Page.Locator("button:has-text(\"Continue Shopping\")").CountAsync, Is.GreaterThanOrEqualTo(1));
                 await Page.Locator("button:has-text(\"Continue Shopping\")").ClickAsync();
             }

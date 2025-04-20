@@ -54,17 +54,25 @@ Whats covered in this project
     - Post Request to searchProduct endpoint and return specific products using varying test case data
 
 - Features Covered
+    - Used C#, Playwright, NUNIT to write UI tests , and Rest-Sharp for API tests
+    - NUNIT - Test fixtures used , Tagged UI and API tests for easily running UI and API tests separately if required
+    - Covers Data driven testing using TestCase annotations
     - Page object Model used
-    - Test Cases annotation used for supplying varying test data
-    - Some screen shots captured 
+    - Test Cases annotations used for supplying varying test data
+    - Screenshots captured for UI tests
     - Different styles of locators used
 
 - What I would cover If i had the Time:
-    - I would add specflow BDD style tests
-    - Add more asserts
+    - I would add Specflow BDD style tests as well
+    - Add more asserts to cover the journey in detail
     - Add more test cases across the flow
     - Allure style Report generation
-    - Jenkins integration for CI/CD or Azure pilepines config for Azure specific Deployment
+    - Jenkins config for CI/CD integration on AWS or GCP or Azure-pilelines config for Azure specific Deployment
+    - Add some Data Integrity tests as a separate framework
+    - Performance metrics reporting
+    - Add Screen play pattern style tests 
 
 
+Originality Statement
 
+This is my original work from scratch and all packages used are listed in this file.
