@@ -7,3 +7,7 @@ ms-playwright/
 
 # Ignore VS Code settings (optional)
 .vscode/
+
+**/bin/
+**/obj/
+**/ms-playwright/
