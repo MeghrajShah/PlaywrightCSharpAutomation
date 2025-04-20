@@ -1,0 +1,9 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore Playwright browsers cache
+ms-playwright/
+
+# Ignore VS Code settings (optional)
+.vscode/
